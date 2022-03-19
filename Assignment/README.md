@@ -19,7 +19,7 @@
 Print **&quot;Hello world&quot;** to the console
 
 - Solution 1:
-```x86asm
+```assembly
 org 100h
 
 jmp start
@@ -65,7 +65,7 @@ Given two numbers a, b
 a + b = 3, a-b = 1, a\*b = 2, a/b = 2, reminder 0
 
 - Solution 1:
-```x86asm
+```assembly
 include 'emu8086.inc'
 org 100h
 jmp start
@@ -199,7 +199,7 @@ Input number x:
 15
 
 - Solution 1:
-```x86asm
+```assembly
 include 'emu8086.inc'
 org 100h
 jmp start
@@ -331,7 +331,7 @@ F5 += (i+j);
 Use **LOOP** and **CX** register
 
 - Solution 1:
-```x86asm
+```assembly
 include 'emu8086.inc' 
 org 100h
 
@@ -398,7 +398,7 @@ Enter a string from keyboard, limited 255 characters
 Save content to file **README.md** (..\emu8086\MyBuild)
 
 - Solution 1:
-```x86asm
+```assembly
 org 100h
 jmp start
     file db 'README.md', 0  
@@ -489,7 +489,7 @@ Print contents in **README2.md** file
 - Solution 1:
 
 _Note: Using this solution, It is required to copy the README2.md to ..\emu8086\MyBuild_
-```x86asm
+```assembly
 org 100h
 jmp start
     file db 'README2.md', 0    ;can dua file README2.md vao folder cai emu8086 truoc(..\emu8086\MyBuild\)
