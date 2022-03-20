@@ -477,7 +477,7 @@ int main()
 
 characters which reads the same backward as forward, such as madam
 
-or racecar.&quot;
+or racecar.&quot;\
 ![image](https://user-images.githubusercontent.com/86862725/159132154-664e2ec5-97e3-4bff-b363-e57cdb05b208.png)
 
 ![image](https://user-images.githubusercontent.com/86862725/159132164-55673a57-aacc-4802-8400-2c4406bd10ac.png)
